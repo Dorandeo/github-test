@@ -1,0 +1,159 @@
+.header {
+	/* - Plaats hier de achtergrond afbeelding (header-background.png) in */
+}
+
+.header .slogan {
+	/* 
+	- Plaats hier de achtergrond afbeelding (header-slogan-background.png) in 
+	- Zet de hoogte en breedte hetzelfde als de achtergrond afbeelding
+	- Zet de tekstkleur op wit (#000000)
+	- Zet box-sizing op border-box (dit zorgt ervoor dat de padding binnen de hoogte breedte wordt uitgevoerd in plaats van daarbuiten)
+	- Zet de tekstgrootte op de juist grootte
+	- Zet de lijnhoogte op de zelfde grootte als de tekstgrootte
+	- Zet de padding zo dat de tekst verticaal in het midden staat en rechts op 20px, tip: padding: <boven> <rechts> <beneden> <links>;
+	*/
+
+}
+
+
+/* ==============================================
+ * HOOFDMENU 
+ * ============================================== */
+
+#hoofdmenu {
+	/*
+	 * - Zet hier de achtergrond afbeelding in van het menu (menu-background.png)
+	 * - Zet de hoogte op 50 pixels
+	 */
+}
+
+#hoofdmenu .navbar {
+	
+	/* 
+	 * Voor het menu hebben maken we gebruik van een ul lijst, dit is een welgebruikte manier om menu's te maken.
+	 * Hieronder staat de code om de ul zo te maken dat het geen lijst meer is, maar block elementen
+	 */
+
+	list-style: none;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+
+	/*
+	 * - Zet de hoogte op 50 pixels
+	 */
+
+}
+
+#hoofdmenu .navbar li {
+
+	/* 
+	 * Door het li element op inline-block te zetten, staat alle li's naast elkaar, voor meer info
+	 * over inline-block kijk op: http://www.w3schools.com/css/css_inline-block.asp
+	 */
+
+	display: inline-block;
+
+	/*
+	 * - Zet de hoogte op 50 pixels
+	 * - Zet de menu-divider.png in de achtergrond, niet herhalend (no-repeat) en rechts gecentreerd en verticaal in het midden (right center)
+	 */
+}
+
+#hoofdmenu .navbar li a {
+	/*
+	 * - zet display op block, hiermee laat je het <a> element zich 'gedragen' als een <div>
+	 * - zet de hoogte op 50px
+	 * - zet de tekstkleur op wit
+	 * - zet de tekstgrootte op 18 pixels
+	 * - zet de lijnhoogte op 20 pixels
+	 * - zet de padding zo dat de tekst zowel horizontaal als verticaal in het midden staat
+	 * - zet de box-sizing op de juiste waarde zodat de padding binnen het element zit
+	 */
+}
+
+
+/* 
+ * ==============================================
+ * BREADCRUMBS 
+ * ==============================================
+ * We hebben een div elements met een id 'breadcrumbs' en een div met een class 'breadcrumbs'
+ * De regels is dat je een id uniek moet zijn, een class mag je vaker gebruiken.
+ */
+
+#breadcrumbs {
+	/*
+	 * - Zet de hoogte op 40 pixels
+	 * - Zet de achtergrondkleur op de kleur zoals beschreven in Lettertype-en-kleuren.png
+	 * - Maak een groene lijn aan de boven en onderkant (links en rechts dus niet)
+	 */
+}
+
+ul.breadcrumbs {
+	/*
+	 * - Zet de hoogte op 40 pixels
+	 * - Zorg ervoor dat deze ul zich gaat gedragen als een div, net zoals het menu
+	 */
+}
+
+ul.breadcrumbs li {
+	/*
+	 * - Zet het diamandje (breadcrumb-divider.png) in de achtergrond en centreer deze rechts en gecentreert
+	 * - zorg ervoor met padding-right en margin-right dat het diamandje precies tussen de tekst in komt te staan
+	 * - zet de hoogte op 40 pixels
+	 * - zorg ervoor dat deze li naast elkaar staat, net zoals het menu
+	 * - zet de tekstkleur en tekstgrootte zoals aangegeven in Lettertype-en-kleuren.png
+	 */
+}
+
+ul.breadcrumbs li a {
+	/* - zet de tekstkleur en tekstgrootte zoals aangegeven in Lettertype-en-kleuren.png */
+}
+
+ul.breadcrumbs li:last-child {
+	/* Met :last-child 'selecteer' je alleen het laaste element, zorg ervoor dat de letters vet wordt */
+}
+
+
+
+/* 
+ * ==============================================
+ * Article
+ * ==============================================
+ * Probeer hieronder nu zelf de tekst op te maken
+ */
+
+.article h1 {
+
+}
+
+.article .entry {
+
+}
+
+
+
+/* 
+ * ==============================================
+ * Widget 
+ * ==============================================
+ * Probeer nu zelf om de widget op te maken, kijk naar de html en welke elementen er in zitten welke je kunt opmaken.
+ * Werk stap voor stap: dus eerst de widget block met de achtergrond, dan de titel, dan de tekst en als laatste de knop
+ * Denk er om dat de padding aan de binnenkant blijft en dat de <a> een block element wordt
+ */
+
+
+
+
+ /* 
+ * ==============================================
+ * Footer 
+ * ==============================================
+ * Probeer nu ook zelf de footer op te maken
+ */
+
+.footer .container {
+
+ }
+
+
