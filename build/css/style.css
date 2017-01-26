@@ -5,11 +5,3 @@ html {
 *, *::after, *::before {
   box-sizing: inherit;
 }
-
-p {
-  color: blue;
-}
-
-body {
-  background-color: black;
-}
