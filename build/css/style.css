@@ -5,3 +5,13 @@ html {
 *, *::after, *::before {
   box-sizing: inherit;
 }
+
+p {
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #66b366;
+  color: #4d4d4d;
+  border: solid 3px #666666;
+  float: left;
+  margin: 30px;
+}
